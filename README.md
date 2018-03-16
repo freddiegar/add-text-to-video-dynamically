@@ -12,11 +12,11 @@ cd add-text-to-video-dynamically
 
 ## Running
 
-To skip CORS error you can run a servier in PHP
+To skip CORS errors, you can run a server in PHP
 
 ```bash
 # In add-text-to-video-dynamically folder
 php -S localhost:8080
 ```
 
-- [See demo](localhost:8080)
+Go to [here](https://localhost:8080) to see demo
