@@ -19,4 +19,4 @@ To skip CORS errors, you can run a server in PHP
 php -S localhost:8080
 ```
 
-Go to [here](https://localhost:8080) to see demo
+Go to [here](http://localhost:8080) to see demo
