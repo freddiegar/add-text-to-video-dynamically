@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Video Test</title>
+  <meta name="description" content="HTML5 Video Play">
+  <meta name="author" content="Freddie Gar">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <figure id="videoContainer">
+      <video id="video" controls autoplay width="512" height="343" preload="metadata" poster="images/poster.png">
+         <!-- <source src="videos/vt.mp4" type="video/mp4"> -->
+         <!-- <source src="videos/vt.ogg" type="video/ogg"> -->
+         <source src="videos/vt.webm" type="video/webm">
+         <track label="Español" kind="subtitles" src="tracks/es.vtt" srclang="en" default>
+      </video>
+      <figcaption>&copy; Freddie Gar | <a href="https://www.github.com/freddiegar">GitHub</a></figcaption>
+   </figure>
+</body>
+</html>

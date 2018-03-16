@@ -1,0 +1,50 @@
+WEBVTT
+
+REGION
+id:one
+width:40%
+line:3
+regionanchor:0%,100%
+viewportanchor:10%,90%
+scroll:up
+
+REGION
+id:two
+width:40%
+line:3
+regionanchor:100%,100%
+viewportanchor:90%,90%
+scroll:up
+
+id_1
+00:00:00.000 --> 00:00:02.000 align:start size:90% position:0% line:1
+<c.yellow.bg_blue>This is yellow text on a blue background</c>
+
+id_2
+00:00:02.001 --> 00:00:04.000 size:90% position:20% line:2
+Hola mi nombre es <i>Pedro Picapiedra</i>
+
+id_3
+00:00:04.001 --> 00:00:06.000 align:left size:90% line:4 region:one
+- Hola 
+- mi nombre es 
+Pedro Picapiedra
+
+id_4
+00:00:06.001 --> 00:00:08.000 align:right size:90% line:6 region:two
+<u>Two Hola mi nombre</u> es <c.red.bg_yellow>Pedro Picapiedra</c>
+
+id_5
+00:00:08.001 --> 00:00:10.000 align:end size:90% position:80% line:8
+Hola mi nombre es <b>Pedro Picapiedra</b>
+
+id_6
+00:00:10.001 --> 00:00:12.000 align:end size:90% position:10% line:10
+One <v Pedro> Hola mi nombre es Pedro Picapiedra</v>
+
+/* style for cue*/
+video::cue(#id_1) { color: lime; }
+video::cue(#id_2) { color: red; }
+video::cue(#id_5) { color: white; }
+video::cue(#id_5) { color: black; background: white }
+video::cue(v[voice="Pedro"]) { color: yellow }
